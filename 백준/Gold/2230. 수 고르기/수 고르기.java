@@ -19,7 +19,7 @@ public class Main {
     static void process(){
         Arrays.sort(arr);
         int right = 0;
-        int ans = arr[N-1] - arr[0];
+        int ans = Integer.MAX_VALUE;
 
         for (int left = 0; left < arr.length; left++) {
 
